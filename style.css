@@ -49,7 +49,7 @@ nav ul li {
     font-size: 16px;
 }
 
-#image img {
+.image img {
 width: 1350px
 }
 
@@ -97,7 +97,57 @@ width: 1350px
     
 }
 
+.table {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #FFFFFF;
+    height: 373px;
 
+}
+
+.table table {
+    font-family: sans-serif;
+    font-size: 36px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 60px;
+}
+
+.nosotros {
+    background-color: #DAE9F2;
+}
+
+.nosotros h2 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 100;
+    color: rgb(7, 33, 54);
+}
+
+.nosotros .p1 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    padding-bottom: 40px;
+}
+
+.nosotros .p2 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: rgb(0, 0, 1);
+}
 
 
 
